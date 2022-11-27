@@ -1,0 +1,8 @@
+parameters:
+    level: max
+    paths:
+      - src
+      - tests
+      - example
+    ignoreErrors:
+        - '#Method V8Js::executeString\(\) invoked with [\d] parameters, 1-3 required.#'
